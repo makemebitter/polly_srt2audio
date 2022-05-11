@@ -13,8 +13,10 @@ This is a script to convert a given `*.srt` subtitle file to a syncronized voice
 pip install -r requirements.txt
 ```
 ### Usage
-usage: polly_srt2audio.py [-h] [--input_file INPUT_FILE] [--output_dir OUTPUT_DIR]
+```
+polly_srt2audio.py [-h] [--input_file INPUT_FILE] [--output_dir OUTPUT_DIR]
                           [--output_file OUTPUT_FILE] [--voice_id VOICE_ID]
+```
 
 ### Example
 ```bash
